@@ -19,7 +19,7 @@ Data files recorded via ROS are usually saved in .bag format. We need to use the
 
 ### 1.2 Another way .bag to .pcd ###
 * **Decoding:** Run `roscore` on the first console. Then open a new console, run 
-'rosrun pcl_ros bag_to_pcd <input_file.bag> <topic> <output_directory>'
+`rosrun pcl_ros bag_to_pcd <input_file.bag> <topic> <output_directory>`
 
 ### 2. Pcb 2 Bin ###
 
